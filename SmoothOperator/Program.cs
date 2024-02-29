@@ -11,6 +11,10 @@ namespace SmoothOperator
             byte guardado = byte.Parse(resposta);
             Console.WriteLine(--guardado);
             Console.WriteLine(++guardado);
+            Console.WriteLine(guardado/2);
+            Console.WriteLine(guardado<<3);
+            Console.WriteLine(guardado^5);
+            Console.WriteLine(guardado>10);
         }
     }
 }
