@@ -49,6 +49,10 @@ namespace ValoresEspeciais
             Console.WriteLine(xmais);
             Console.WriteLine(xmenos);
             Console.WriteLine(Nano);
+
+            uint i = uint.MaxValue;
+            Console.WriteLine((uint)(i + 1));
+            
         }
     }
 }
