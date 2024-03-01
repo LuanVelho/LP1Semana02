@@ -52,7 +52,10 @@ namespace ValoresEspeciais
 
             uint i = uint.MaxValue;
             Console.WriteLine((uint)(i + 1));
-            
+            float x = 2 * float.MaxValue;
+            double y = double.MaxValue + 1;
+            Console.WriteLine(x);
+            Console.WriteLine(y);
         }
     }
 }
