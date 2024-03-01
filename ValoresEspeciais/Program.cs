@@ -42,6 +42,13 @@ namespace ValoresEspeciais
             Console.WriteLine(ulongmenos);
             Console.WriteLine(floatmais);
             Console.WriteLine(floatmenos);
+            
+            float xmais = float.PositiveInfinity;
+            float xmenos = float.NegativeInfinity;
+            double Nano = double.PositiveInfinity;
+            Console.WriteLine(xmais);
+            Console.WriteLine(xmenos);
+            Console.WriteLine(Nano);
         }
     }
 }
