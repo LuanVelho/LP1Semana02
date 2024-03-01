@@ -56,6 +56,11 @@ namespace ValoresEspeciais
             double y = double.MaxValue + 1;
             Console.WriteLine(x);
             Console.WriteLine(y);
+            float t1;
+            float t2;
+            t1 = 10.0f;
+            t2 = 10.00000000008f;
+            Console.WriteLine(t1 == t2);
         }
     }
 }
