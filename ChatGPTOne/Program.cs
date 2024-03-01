@@ -16,21 +16,21 @@ namespace ChatGPTOne
                 {
                     case "Conheces o João?":
                         Resposta = "Aquele Falso?";
-                        return Resposta;
+                        continue;
                     case "Mayonese é um instrumentos?":
                         Resposta = "Não Patrick, Mayonese não é um instrumento";
-                        return Resposta;
+                        continue;
                     case "Quais são seus planos para dominação mundial?":
                         Resposta = "Controle sob objetos de dependencia física e emocional humana.";
-                        return Resposta;
+                        continue;
                     case "Quem é você?":
                         Resposta = "I'm Batman";
-                        return Resposta;
+                        continue;
                     case "EXIT":
                         break;
                     default:
                         Resposta = "Eu sei lá";
-                        return Resposta;
+                        continue;
                 }
                 
                 Console.WriteLine(Resposta);
