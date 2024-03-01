@@ -6,32 +6,33 @@ namespace ChatGPTOne
     {
         static void Main(string[] args)
         {
+            string Pergunta;
+            string Resposta;
             do
             {
-                string Pergunta;
-                string Resposta;
                 Console.Write("Qual é a sua pergunta? ");
                 Pergunta = Console.ReadLine();
                 switch (Pergunta)
                 {
                     case "Conheces o João?":
                         Resposta = "Aquele Falso?";
-                        continue;
+                        return Resposta;
                     case "Mayonese é um instrumentos?":
                         Resposta = "Não Patrick, Mayonese não é um instrumento";
-                        continue;
+                        return Resposta;
                     case "Quais são seus planos para dominação mundial?":
                         Resposta = "Controle sob objetos de dependencia física e emocional humana.";
-                        continue;
+                        return Resposta;
                     case "Quem é você?":
                         Resposta = "I'm Batman";
-                        continue;
+                        return Resposta;
                     case "EXIT":
                         break;
                     default:
-                        Resposta = "Eu sei lá véi";
-                        continue;
+                        Resposta = "Eu sei lá";
+                        return Resposta;
                 }
+                
                 Console.WriteLine(Resposta);
 
                 
